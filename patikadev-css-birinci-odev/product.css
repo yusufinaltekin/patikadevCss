@@ -1,0 +1,28 @@
+body{
+    overflow-x: hidden;
+}
+ol li{
+    min-width: 500px;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0px;
+    padding: 20px;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+img{
+    max-width:400px;
+    min-width:400px;
+    margin: 10px 0px;
+}
+ol li:last-child{
+    border-bottom: none;
+}
+.price{
+    margin: 10px 0px;
+    font-size: 18px;
+    color: green;
+    font-weight: 600;
+}
